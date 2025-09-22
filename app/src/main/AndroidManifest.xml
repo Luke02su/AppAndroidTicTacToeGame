@@ -10,7 +10,7 @@
         android:label="@string/app_name"
         android:roundIcon="@drawable/img"
         android:supportsRtl="true"
-        android:theme="@style/Theme.TicTacToeGame">
+        android:theme="@style/Base.Theme.TicTacToeGame">
         <activity
             android:name=".GameActivity"
             android:exported="true"
