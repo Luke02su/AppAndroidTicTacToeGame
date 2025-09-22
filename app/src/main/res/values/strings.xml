@@ -2,7 +2,7 @@
     <string name="app_name">Tic Tac Toe Game</string>
     <string name="reset_score">Reset Score</string>
     <string name="game_reset">Game Reset</string>
-    <string name="player_s_turn_X">Player's Turn: X</string>
+    <string name="player_s_turn_X">Player\'s Turn: X</string>
     <string name="player_x_0">Player X: 0</string>
     <string name="player_O_0">Player O: 0</string>
     <string name="round_reset">Round Reset</string>
