@@ -23,10 +23,14 @@ It features **player score tracking**, **turn-based gameplay**, **winner detecti
 - **Round Reset button**: Yellow (#FFEB3B)  
 - **Game Reset button**: Amber (#FFC107)
 
-<p align="center">
+  ---
+
+<p align="center" >
    <img width="300" height="600" alt="Main Screen 1" src="https://github.com/user-attachments/assets/d9877a0a-6042-405d-85eb-001674ca3d7e"" />
    <img width="300" height="600" alt="Main Screen 2" src="https://github.com/user-attachments/assets/d9877a0a-6042-405d-85eb-001674ca3d7e" />
 </p>
+
+---
 
 ### Game Board
 - Each cell is a **TextView**, 80x80dp, bold 36sp.  
