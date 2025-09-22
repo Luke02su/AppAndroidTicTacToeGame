@@ -37,11 +37,10 @@ It features **player score tracking**, **turn-based gameplay**, **winner detecti
 ### Print's of Main Screen
 
   <p align="center" >
-   <img width="300" height="600" alt="Main Screen 1" src="https://github.com/user-attachments/assets/d9877a0a-6042-405d-85eb-001674ca3d7e"" />
-   <img width="300" height="600" alt="Main Screen 2" src="https://github.com/user-attachments/assets/d31bba18-6c2a-431c-b91b-a3996b18013c" />
+   <img width="300" height="600" alt="Main Screen 1" src="https://github.com/user-attachments/assets/eee5ddb2-ae85-46a7-873d-0bf0b602c73e" />
+   <img width="300" height="600" alt="Main Screen 2" src="https://github.com/user-attachments/assets/9c183517-bcd1-4a43-a536-ea14c00e0c07" />
+   <img width="300" height="600" alt="Main Screen 2" src="https://github.com/user-attachments/assets/eee5ddb2-ae85-46a7-873d-0bf0b602c73e" />
 </p>
-
----
 
 ---
 
