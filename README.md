@@ -9,8 +9,6 @@
 ## Project 🎯
 This Android app is a **Tic Tac Toe game** implemented in **Kotlin** with a **modern and responsive UI**.  
 It features **player score tracking**, **turn-based gameplay**, **winner detection**, **round reset**, and **game reset**.  
-<img width="1222" height="2498" alt="Screenshot_20250922_011941" src="https://github.com/user-attachments/assets/45f8a5be-5c5a-4222-b73f-594377c0a751" />
-<img width="1222" height="2498" alt="Screenshot_20250922_011941" src="https://github.com/user-attachments/assets/d9877a0a-6042-405d-85eb-001674ca3d7e" />
 
 ---
 
