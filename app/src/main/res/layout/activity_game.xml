@@ -7,7 +7,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/black"
-    tools:context=".MainActivity">
+    tools:context=".GameActivity">
 
     <TextView
         android:id="@+id/textViewCurrentPlayer"
@@ -15,6 +15,7 @@
         android:layout_height="wrap_content"
         android:text="@string/player_s_turn_X"
         android:textColor="@color/white"
+        android:textStyle="bold"
         android:textSize="18sp"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -36,7 +37,7 @@
             android:layout_height="wrap_content"
             android:text="@string/player_x_0"
             android:textColor="@color/white"
-            android:background="#42A5F5"
+            android:background="@drawable/style_text_view_player1"
             android:textSize="18sp"
             android:padding="10dp"
             android:elevation="4dp"
@@ -48,7 +49,7 @@
             android:layout_height="wrap_content"
             android:text="@string/player_O_0"
             android:textColor="@color/white"
-            android:background="#EF5350"
+            android:background="@drawable/style_text_view_player2"
             android:textSize="18sp"
             android:padding="10dp"
             android:elevation="4dp"
@@ -75,6 +76,8 @@
             android:textSize="36sp"
             android:gravity="center"
             android:background="#66444466"
+            android:shadowColor="#42A5F5"
+            android:shadowRadius="6"
             android:textStyle="bold"
             android:elevation="6dp"
             android:translationZ="8dp"/>
@@ -86,6 +89,8 @@
             android:textSize="36sp"
             android:gravity="center"
             android:background="#66444466"
+            android:shadowColor="#42A5F5"
+            android:shadowRadius="6"
             android:textStyle="bold"
             android:elevation="6dp"
             android:translationZ="8dp"/>
@@ -97,6 +102,8 @@
             android:textSize="36sp"
             android:gravity="center"
             android:background="#66444466"
+            android:shadowColor="#42A5F5"
+            android:shadowRadius="6"
             android:textStyle="bold"
             android:elevation="6dp"
             android:translationZ="8dp"/>
@@ -108,6 +115,8 @@
             android:textSize="36sp"
             android:gravity="center"
             android:background="#66444466"
+            android:shadowColor="#42A5F5"
+            android:shadowRadius="6"
             android:textStyle="bold"
             android:elevation="6dp"
             android:translationZ="8dp"/>
@@ -119,6 +128,8 @@
             android:textSize="36sp"
             android:gravity="center"
             android:background="#66444466"
+            android:shadowColor="#42A5F5"
+            android:shadowRadius="6"
             android:textStyle="bold"
             android:elevation="6dp"
             android:translationZ="8dp"/>
@@ -130,6 +141,8 @@
             android:textSize="36sp"
             android:gravity="center"
             android:background="#66444466"
+            android:shadowColor="#42A5F5"
+            android:shadowRadius="6"
             android:textStyle="bold"
             android:elevation="6dp"
             android:translationZ="8dp"/>
@@ -141,6 +154,8 @@
             android:textSize="36sp"
             android:gravity="center"
             android:background="#66444466"
+            android:shadowColor="#42A5F5"
+            android:shadowRadius="6"
             android:textStyle="bold"
             android:elevation="6dp"
             android:translationZ="8dp"/>
@@ -152,6 +167,8 @@
             android:textSize="36sp"
             android:gravity="center"
             android:background="#66444466"
+            android:shadowColor="#42A5F5"
+            android:shadowRadius="6"
             android:textStyle="bold"
             android:elevation="6dp"
             android:translationZ="8dp"/>
@@ -163,6 +180,8 @@
             android:textSize="36sp"
             android:gravity="center"
             android:background="#66444466"
+            android:shadowColor="#42A5F5"
+            android:shadowRadius="6"
             android:textStyle="bold"
             android:elevation="6dp"
             android:translationZ="8dp"/>
@@ -173,7 +192,6 @@
         android:layout_width="180dp"
         android:layout_height="wrap_content"
         android:text="@string/round_reset"
-        app:cornerRadius="0dp"
         android:textColor="@color/black"
         android:textSize="18sp"
         android:backgroundTint="#FFEB3B"
@@ -181,6 +199,9 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginTop="80dp"
+        android:shadowColor="#FFEB3B"
+        android:shadowRadius="6"
+        app:cornerRadius="2dp"
         android:elevation="6dp"
         android:translationZ="8dp"/>
 
@@ -189,14 +210,16 @@
         android:layout_width="180dp"
         android:layout_height="wrap_content"
         android:text="@string/game_reset"
-        app:cornerRadius="0dp"
         android:textColor="@color/black"
         android:textSize="18sp"
         android:backgroundTint="#FFC107"
         app:layout_constraintTop_toBottomOf="@id/btnRoundReset"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="20dp"
+        android:shadowColor="#FFC107"
+        android:shadowRadius="6"
+        app:cornerRadius="2dp"
         android:elevation="6dp"
         android:translationZ="8dp"/>
 </androidx.constraintlayout.widget.ConstraintLayout>

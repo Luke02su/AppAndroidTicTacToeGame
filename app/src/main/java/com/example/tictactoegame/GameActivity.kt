@@ -11,7 +11,7 @@ import android.os.Handler
 import android.os.Looper
 import android.view.WindowManager
 
-class MainActivity : AppCompatActivity() {
+class GameActivity : AppCompatActivity() {
 
     private lateinit var cells: Array<TextView>
     private var currentPlayer = "X"
@@ -55,17 +55,10 @@ class MainActivity : AppCompatActivity() {
                     if (checkWinner()) {
                         Toast.makeText(this, "Player $currentPlayer won!", Toast.LENGTH_LONG).show()
                         scoreGame()
-                        window.setFlags(
-                            WindowManager.LayoutParams.FLAG_NOT_TOUCHABLE,
-                            WindowManager.LayoutParams.FLAG_NOT_TOUCHABLE
-                        )
-                        Handler(Looper.getMainLooper()).postDelayed({
-                            window.clearFlags(WindowManager.LayoutParams.FLAG_NOT_TOUCHABLE)
-                            resetRound()
-                        }, 3800)
+                        lockScreenAndStopTimeBeforeResetRound()
                     } else if (cells.all { it.text.isNotEmpty() }) {
                         Toast.makeText(this, "Draw!", Toast.LENGTH_LONG).show()
-                        resetRound()
+                        lockScreenAndStopTimeBeforeResetRound()
                     } else {
                         currentPlayer = if (currentPlayer == "X") "O" else "X"
                     }
@@ -94,6 +87,17 @@ class MainActivity : AppCompatActivity() {
         cell.animate().translationZ(16f).setDuration(150).withEndAction {
             cell.animate().translationZ(8f).duration = 150
         }.start()
+    }
+
+    private fun lockScreenAndStopTimeBeforeResetRound() {
+        window.setFlags(
+            WindowManager.LayoutParams.FLAG_NOT_TOUCHABLE,
+            WindowManager.LayoutParams.FLAG_NOT_TOUCHABLE
+        )
+        Handler(Looper.getMainLooper()).postDelayed({
+            window.clearFlags(WindowManager.LayoutParams.FLAG_NOT_TOUCHABLE)
+            resetRound()
+        }, 3800)
     }
 
     private fun checkWinner(): Boolean {
@@ -139,6 +143,7 @@ class MainActivity : AppCompatActivity() {
         textViewPlayerO.text = "Player 0: $playerOScore"
         resetRound()
         currentPlayer = "X"
+        textViewCurrentPlayer.text = "Player's Turn: $currentPlayer"
     }
 
     private fun resetRound() {
