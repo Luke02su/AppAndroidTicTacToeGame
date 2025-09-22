@@ -23,13 +23,6 @@ It features **player score tracking**, **turn-based gameplay**, **winner detecti
 - **Round Reset button**: Yellow (#FFEB3B)  
 - **Game Reset button**: Amber (#FFC107)
 
-  ---
-
-<p align="center" >
-   <img width="300" height="600" alt="Main Screen 1" src="https://github.com/user-attachments/assets/d9877a0a-6042-405d-85eb-001674ca3d7e"" />
-   <img width="300" height="600" alt="Main Screen 2" src="https://github.com/user-attachments/assets/d9877a0a-6042-405d-85eb-001674ca3d7e" />
-</p>
-
 ---
 
 ### Game Board
@@ -41,7 +34,16 @@ It features **player score tracking**, **turn-based gameplay**, **winner detecti
 - Highlights winning cells in white (#FAFAFA).  
 - Draws reset board automatically.  
 - Next round starts with the previous loser.  
-- Temporarily disables input after a win for 3.8 seconds.  
+- Temporarily disables input after a win for 3.8 seconds.
+
+### Print's of Main Screen
+
+  <p align="center" >
+   <img width="300" height="600" alt="Main Screen 1" src="https://github.com/user-attachments/assets/d9877a0a-6042-405d-85eb-001674ca3d7e"" />
+   <img width="300" height="600" alt="Main Screen 2" src="https://github.com/user-attachments/assets/d9877a0a-6042-405d-85eb-001674ca3d7e" />
+</p>
+
+---
 
 ---
 
