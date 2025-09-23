@@ -38,8 +38,8 @@ It features **player score tracking**, **turn-based gameplay**, **winner detecti
 
   <p align="center" >
    <img width="300" height="600" alt="Main Screen 1" src="https://github.com/user-attachments/assets/caa47ec3-8d09-4ee3-b41e-0c2a9cd8a99b" />
-   <img width="300" height="600" alt="Main Screen 2" src="https://github.com/user-attachments/assets/82f80789-77ea-4fed-a5c7-2cc352731abe" />
    <img width="300" height="600" alt="Main Screen 2" src="https://github.com/user-attachments/assets/eee5ddb2-ae85-46a7-873d-0bf0b602c73e" />
+   <img width="300" height="600" alt="Main Screen 3" src="https://github.com/user-attachments/assets/82f80789-77ea-4fed-a5c7-2cc352731abe" />
 </p>
 
 ---
